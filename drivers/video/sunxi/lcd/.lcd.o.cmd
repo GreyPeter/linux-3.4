@@ -1,0 +1,1 @@
+cmd_drivers/video/sunxi/lcd/lcd.o := arm-linux-gnueabihf-ld -EL    -r -o drivers/video/sunxi/lcd/lcd.o drivers/video/sunxi/lcd/lcd_panel_cfg_generic.o drivers/video/sunxi/lcd/dev_lcd.o drivers/video/sunxi/lcd/lcd0_panel_cfg.o drivers/video/sunxi/lcd/lcd1_panel_cfg.o 
